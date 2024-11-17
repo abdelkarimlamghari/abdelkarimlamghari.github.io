@@ -147,17 +147,22 @@ input, textarea {
 }
 
 ::selection {
-  background: var(--orange-yellow-crayola);
-  color: var(--smoky-black);
+  background: #ADD8E6; /* Light blue background for text selection */
+  color: #000000; /* Black text color */
 }
 
-:focus { outline-color: var(--orange-yellow-crayola); }
+:focus {
+  outline-color: #ADD8E6; /* Light blue outline for focused elements */
+}
 
-html { font-family: var(--ff-poppins); }
+html {
+  font-family: Arial, sans-serif; /* Change the font to Arial or a fallback */
+}
 
 body {
-  background-color: #ffffff; /* White background */
+  background-color: #f0f0f0; /* Light gray background for the body */
 }
+
 
 
 
